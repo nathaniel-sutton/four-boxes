@@ -1,0 +1,158 @@
+h1 {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600;
+  margin: 0
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 30px;
+  margin: 0;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 23px;
+  margin: 10px 0 0;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Poppins', sans-serif;
+}
+
+p {
+  color: hsl(229, 6%, 66%);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.title {
+  margin: 100px 0;
+  text-align: center;
+}
+
+.box {
+  box-shadow: 2px 10px 10px hsl(229, 6%, 66%);
+  display: flex;
+  border-radius: 3%;
+  border-style: outset;
+  border-top-width: 5px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  width: 400px;
+  height: 280px;
+  padding: 10px;
+}
+
+.team-builder {
+  border-top-color: hsl(0, 78%, 62%);
+  margin: 4% 40%;
+}
+
+.team-builder-icon {
+  display: flex;
+  float: right;
+  margin: 48px 36px;
+}
+
+.supervisor {
+  border-top-color: hsl(180, 62%, 55%);
+  margin: -12% 15%;
+}
+
+.supervisor ul li p {
+  padding: 0 1%;
+}
+
+.supervisor-icon {
+  display: flex;
+  float: right;
+  margin: 62px 28px;
+}
+
+.karma {
+  border-top-color: hsl(34, 97%, 64%);
+  margin: 10% 40%;
+}
+
+.karma-icon {
+  margin: 88px 21px;
+  height: 64px;
+  float: right;
+}
+
+.calculator {
+  border-top-color: hsl(212, 86%, 64%);
+  margin: -16% 65%;
+}
+
+.calculator-icon {
+  display: flex;
+  float: right;
+  margin: 54px 35px;
+}
+
+.attribution {
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 1440px) {
+  .box {
+    margin: 10%;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .flx2 {
+    margin: 0% 14%;
+  }
+
+  .flx4 {
+    margin: 0% 14%;
+  }
+}
+
+@media screen and (max-width: 1058px) {
+  .title {
+      margin: 10% 0;
+      text-align: center;
+  }
+
+.title p {
+  margin: 15px 106px;
+}
+
+  .box {
+    margin: auto;
+  }
+
+  .row1 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .row2 {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .flx2 {
+    margin: 5% 0;
+  }
+
+  .flx4 {
+    margin: 5% 0;
+  }
+}
